@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> News Updates</h1>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Find news...">
+        <button id="searchBtn">Find</button>
+    </div>
+
+    <div class="categories">
+        <button class="category" data-topic="general">Top News</button>
+        <button class="category" data-topic="business">Business</button>
+        <button class="category" data-topic="technology">Tech</button>
+        <button class="category" data-topic="sports">Sports</button>
+        <button class="category" data-topic="health">Health</button>
+        <button class="category" data-topic="science">Science</button>
+        <button class="category" data-topic="entertainment">Entertainment</button>
+    </div>
+
+    <p id="loading"></p>
+    <p id="error"></p>
+
+    <div id="newsContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
